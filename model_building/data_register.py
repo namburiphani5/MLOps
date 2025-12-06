@@ -2,8 +2,9 @@ from huggingface_hub.utils import RepositoryNotFoundError, HfHubHTTPError
 from huggingface_hub import HfApi, create_repo
 import os
 
-hf_token = os.getenv("HF_TOKEN")
-repo_id = "{hf_token}/bank-customer-churn"
+#hf_token = os.getenv("HF_TOKEN")
+#repo_id = "{hf_token}/bank-customer-churn"
+repo_id = "namburiphani5/bank-customer-churn"
 repo_type = "dataset"
 
 # Initialize API client
