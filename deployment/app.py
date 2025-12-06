@@ -3,10 +3,8 @@ import pandas as pd
 from huggingface_hub import hf_hub_download
 import joblib
 
-hf_token = os.getenv("HF_TOKEN")
-
 # Download the model from the Model Hub
-model_path = hf_hub_download(repo_id="{hf_token}/churn-model", filename="best_churn_model_v1.joblib")
+model_path = hf_hub_download(repo_id="namburiphani5/churn-model", filename="best_churn_model_v1.joblib")
 
 # Load the model
 model = joblib.load(model_path)
