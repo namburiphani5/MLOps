@@ -10,7 +10,7 @@ model_path = hf_hub_download(repo_id="namburiphani5/churn-model", filename="best
 model = joblib.load(model_path)
 
 # Streamlit UI for Customer Churn Prediction
-st.title("Customer Churn Prediction App")
+st.title("Customer Churn Prediction App1")
 st.write("The Customer Churn Prediction App is an internal tool for bank staff that predicts whether customers are at risk of churning based on their details.")
 st.write("Kindly enter the customer details to check whether they are likely to churn.")
 
